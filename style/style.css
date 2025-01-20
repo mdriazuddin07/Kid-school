@@ -11,11 +11,12 @@
     margin: 0;
     padding: 0;
 }
+/* navbar style */
 nav{
     padding: 20px 0px 20px 0px;
 }
 .navbar {
-    width: 1640px;
+    width: 1160px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -102,9 +103,62 @@ nav{
    background-color: rgb(224, 143, 3);
 }
 
+/* section hero */
+.hero{
+    width: 1158px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.discription{
+    width: 640px;
+    height: 331px;
+}
+.title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.Empowering{
+    color: rgb(254, 163, 1);
+}
+.vision{
+    color: rgb(1, 172, 253);
+}
+.title-discription{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.btn2{
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+border: none;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+
+}
+/*  */
 
 
-@media screen and (max-width: 940px) {
-
-        
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .name{
+        display: none;
+    }
 }
