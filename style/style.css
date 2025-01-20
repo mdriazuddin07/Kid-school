@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 20px 0px 20px 0px;
+}
+.navbar {
+    width: 1640px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.home{
+    color: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.home:hover{
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 5px;
+    background-color: orange;
+}
+.about{
+    color: rgb(1, 172, 253);
+    font-size: 20px;
+    font-weight: 500;
+}
+.about:hover{
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(1, 172, 253);
+}
+.facilities{
+    color: rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: 500;
+}
+.facilities:hover{
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(5, 212, 223);
+}
+.admission{
+    color: rgb(93, 88, 239);
+    font-size: 20px;
+    font-weight: 500;
+}
+.admission:hover{
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(93, 88, 239);
+}
+
+.btn{
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;   
+    text-align: center;
+}
+.btn:hover{
+   background-color: rgb(224, 143, 3);
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+        
+}
