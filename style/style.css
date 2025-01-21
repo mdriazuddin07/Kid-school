@@ -158,6 +158,10 @@ font-weight: 700;
     width: 100%;
     padding: 60px 0px 60px 0px;
     background-image: url(../assets/bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .Standard-title{
@@ -174,6 +178,7 @@ font-weight: 700;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 28px;
+    margin-bottom: 80px;
 }
 .card{
     width: 367.8px;
@@ -261,6 +266,155 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     font-weight: 700;
     text-align: center;
 }
+
+.btn6{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-containe{
+    width: 130px;
+    height: 60px;
+}
+
+/* Our Stories */
+.our{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+    }
+.our-stories{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 80;
+padding: 60px 0px 60px 0px;
+background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); 
+
+
+    }
+.story1{
+    width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.img{
+    width: 540px;
+height: 337px;
+border-radius: 16px 16px 0px 0px;
+background:rgb(217, 217, 217);
+margin-bottom: 61px;
+}
+.story-title{
+    width: 402.49px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 38px;
+    margin-bottom: 51px;
+}
+.story-discription{
+    width: 433.06px;
+    color: rgb(102, 102, 102);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+margin-left: 38px;
+}
+.btn7{
+width: 174.51px;
+height: 47.93px;
+border: none;
+border-radius: 47.93px;
+background: rgb(60, 216, 232);
+color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+position: absolute;
+margin-top: 310px;
+margin-left: -500px;
+}
+
+.story2{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.img2{
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+    background:rgb(255, 255, 255);
+}
+.stor2-title{
+    width: 198.04px;
+    height: 47.93px;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    margin: 43px 54px 33px 37px;
+
+}
+
+.btn8{
+    width: 174.51px;
+    height: 38.35px;
+    border: none;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 39px;
+    }
+.btn9{
+    width: 174.51px;
+    height: 38.35px;
+    border: none;
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 39px;
+}
+.storys{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+.stories-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+
+
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     
@@ -293,13 +447,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         height: 725px;
         flex-direction: column;
         text-align: center;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 25px 20px 25px;
 
         
     }
     .kid{
         width: 336.58px;
         height: 413px;
+        
     }
     .discription{
         order: 2;
@@ -322,14 +477,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     }
     .card-container{
         grid-template-columns: 1fr;
-        /* Classes */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 17px;
     }
+    
     .Standard-title{
         color: rgb(0, 0, 0);
     font-family: Quicksand;
@@ -340,7 +495,36 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     }
     .Standard-Curriculum{
         width: 390px;
-        height: 1913.51px;
-
+        height: auto;
+        
     }
+    
+    .btn-containe{
+        display: none;
+    }
+
+    /* stories */
+    .our-stories{
+        width: 390px;
+        height: auto;
+    }
+    .our{
+        width: 390px;
+
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .story1{
+        display: none;
+    }
+   .storys{
+    width: 358px;
+height: 561.39px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+   }
 }
