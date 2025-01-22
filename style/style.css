@@ -495,10 +495,18 @@ ul {
 
 
 }
+marquee {
+    width: 100%;
+    background: rgb(1, 172, 253);
+    color: rgb(255, 255, 255); 
+    font-size: 18px; 
+    padding: 10px;
+
+}
 
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 557px) {
     
     .navbar{
         width: 358px;
@@ -589,11 +597,14 @@ ul {
 
     /* stories */
     .our-stories{
-      padding: 16px 16px;
+        width: 100%;
+        margin: 0 auto;
+        
+      padding: 0 50px;
+      
     }
     .our{
         width: 390px;
-
         color: rgb(0, 0, 0);
         font-family: Quicksand;
         font-size: 26px;
@@ -601,16 +612,19 @@ ul {
         text-align: center;
         margin-bottom: 40px;
     }
-    
+    .card2{
+        width: 100%;
+        margin: 0 auto;
+    }
     .story1{
         display: none;
     }
    .storys{
-    width: 358px;
-    height: 561.39px;
+    width:100%;
+    margin: 0 auto;
     padding: 16px;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(1,2fr);
    }
    .story2{
     width: 290.69px;
@@ -618,6 +632,14 @@ height: 301.61px;
 border-radius: 16px;
 background: rgb(255, 255, 255);
 
+   }
+   .footer{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
    }
    
 }
