@@ -23,6 +23,9 @@ nav{
     justify-content: space-between;
     
 }
+.burgar{
+    display: none;
+}
 hr{
     box-sizing: border-box;
     border: 0.5px solid rgb(254, 163, 1);
@@ -512,6 +515,8 @@ marquee {
         width: 358px;
         height: 46px;
         margin-bottom: 25px;
+        margin-top: 25px;
+        
     }
     header{
     
@@ -525,7 +530,8 @@ marquee {
         display: none;
     }
     .name{
-        display: none;
+        display:none;
+
     }
     body{
         width: 357px;
@@ -641,5 +647,15 @@ background: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
    }
-   
+   marquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.burgar{
+    display: block;
 }
+
+}
+
+
